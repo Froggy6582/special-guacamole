@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+li,a {
+
+    font-size: 20px;
+    color: limegreen;
+}
+
+button{
+
+    color: brown;
+    height: 30px;
+    width: 120px;
+    font-size: large;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10%;
+}
+
+.navlinks li{
+
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navlinks li a{
+
+    transition: all 0.5 ease 0s;
+}
+
+.navlinks li a:hover {
+
+    color: gold;
+}
+
+button {
+
+    padding: 10px 25px;
+    background-color: dimgrey;
+    border-radius: 40px;
+    transition: all 0.5 ease 0s;
+}
+
